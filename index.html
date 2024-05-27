@@ -4,121 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raziq Khan - Resume</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 0.5rem;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        header h1 {
-            margin: 0.5rem 0;
-            font-size: 1.5rem;
-        }
-        header p {
-            margin: 0;
-            font-size: 1rem;
-        }
-        .nav-bar {
-            display: flex;
-            justify-content: center;
-            background-color: #4CAF50;
-            padding: 0.5rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        .nav-link {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 0 1rem;
-            cursor: pointer;
-        }
-        .nav-link:hover {
-            text-decoration: underline;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 2rem 0;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .section {
-            margin-bottom: 2rem;
-        }
-        .section h2 {
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 0.5rem;
-        }
-        .resume-item {
-            margin-bottom: 1.5rem;
-        }
-        .resume-item h3 {
-            margin: 0;
-            color: #4CAF50;
-        }
-        .resume-item p {
-            margin: 0.5rem 0 0 0;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 0.5rem 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 0.5rem;
-            margin: 0.5rem 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            padding: 0.7rem 1.5rem;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 1rem;
-        }
-        .contact-form button:hover {
-            background-color: #45a049;
-        }
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .skill {
-            background-color: #4CAF50;
-            color: white;
-            padding: 0.5rem 1rem;
-            margin: 0.5rem;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -129,6 +15,8 @@
         <a href="#about" class="nav-link">About Me</a>
         <a href="#resume" class="nav-link">Resume</a>
         <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#projects" class="nav-link">Projects</a>
         <a href="#contact" class="nav-link">Contact</a>
     </div>
 </header>
@@ -136,40 +24,101 @@
 <div class="container">
     <div id="about" class="section">
         <h2>About Me</h2>
-        <p>Hello! I'm Raziq Khan, a dedicated and experienced professional in [Your Field/Industry]. With a strong background in [Your Specializations], I have a passion for [Your Interests or Areas of Expertise]. My goal is to [Your Career Goals or Objectives].</p>
+        <p>Hello! I'm Raziq Khan, a ReactJs developer with 1 year of experience. I have a strong background in various technologies and a passion for creating innovative solutions. My goal is to leverage my skills and experience to contribute effectively to the success of the organization I work with.</p>
     </div>
 
     <div id="resume" class="section">
         <h2>Resume</h2>
         <div class="resume-item">
-            <h3>Senior Developer - Tech Company</h3>
-            <p>Location | Jan 2020 - Present</p>
-            <p>Leading a team of developers to create innovative software solutions. Successfully launched multiple projects that improved efficiency by 20%.</p>
+            <h3>Consultant</h3>
+            <p>JK Tech | Date not specified</p>
+            <p>ReactJs developer with 1 year of experience. Performed analysis, design, coding, and UI design. Created user-manual documents for new features. Worked both independently and collaboratively in team environments. Experienced with tools such as VS Code, MS Excel, MySQL, Postman, MSSQL, etc.</p>
         </div>
-        <div class="resume-item">
-            <h3>Software Engineer - Another Tech Company</h3>
-            <p>Location | Jun 2016 - Dec 2019</p>
-            <p>Worked on backend development and database management. Implemented features that enhanced user experience and increased user retention by 15%.</p>
-        </div>
-        <!-- Add more resume items as needed -->
     </div>
 
     <div id="skills" class="section">
         <h2>Skills</h2>
         <div class="skills">
-            <div class="skill">JavaScript</div>
-            <div class="skill">Python</div>
-            <div class="skill">React</div>
-            <div class="skill">Node.js</div>
-            <div class="skill">CSS</div>
-            <div class="skill">HTML</div>
-            <div class="skill">SQL</div>
-            <div class="skill">Git</div>
+            <div class="skill">Angular</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">ReactJs</div>
+            <div class="skill">Dotnet</div>
+            <div class="skill">C & C#</div>
+            <div class="skill">HTML & CSS</div>
         </div>
+    </div>
+
+    <div id="education" class="section">
+        <h2>Education</h2>
+        <table class="education-table">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2021</td>
+                    <td>Bachelor of Engineering (Electronics and Communication)</td>
+                    <td>PES College of Engineering - Mandya</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Diploma in Electronics and Communication</td>
+                    <td>Govt Polytechnic, Chamarajanagar</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>S.S.L.C</td>
+                    <td>KKM Govt High School - Mamballi</td>
+                    <td>India</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="projects" class="section">
+        <h2>Projects</h2>
+        <table class="projects-table">
+            <thead>
+                <tr>
+                    <th>Dates</th>
+                    <th>Project</th>
+                    <th>Role</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>May 2022 - September 2022</td>
+                    <td>Banking App (Training Project)</td>
+                    <td>Software Engineer</td>
+                    <td>Team Size: 5, Skills Used: ReactJs, MySQL, .Net. Involved in analysis, design, coding, and UI design.</td>
+                </tr>
+                <tr>
+                    <td>June 2022 - July 2022</td>
+                    <td>Leave Management (Training Project)</td>
+                    <td>Software Engineer</td>
+                    <td>Team Size: 4, Skills Used: React, Firebase. Involved in analysis, design, coding, UI design, standup meetings, and peer code reviews.</td>
+                </tr>
+                <tr>
+                    <td>September 2022 - June 2023</td>
+                    <td>Ledger Document (Internal)</td>
+                    <td>Software Engineer</td>
+                    <td>Team Size: 12, Skills Used: ReactJS, NodeJS, Azure, CosmoDB. Involved in analysis, design, coding, and UI development.</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <div id="contact" class="section">
         <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:Raziq.khan@jktech.com">Raziq.khan@jktech.com</a></p>
         <form class="contact-form" id="contact-form">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
